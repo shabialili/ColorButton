@@ -1,0 +1,43 @@
+﻿<Window x:Class="ColorButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColoredButton"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel Height="200" Orientation="Horizontal" Name="stcp1">
+
+                <Button Width="250" Height="150" Margin="8" Name="button_Indigo" Content="1" TextBlock.FontSize="44" MouseRightButtonDown="Button_MouseRightButtonDown"
+                 Click="MouseLeftButtonDown1" Background="#4B0082" MouseDoubleClick="Button_MouseRightButtonDown" >
+                </Button>
+
+                <Button Width="250" Height="150" Margin="8" Name="button_Lawngreen" Content="2" TextBlock.FontSize="44" MouseRightButtonDown="Button_MouseRightButtonDown" 
+                Click="MouseLeftButtonDown1" Background="#7CFC00">
+                </Button>
+
+                <Button Width="250" Height="150" Margin="8" Name="button_Maroon" Content="3" TextBlock.FontSize="44" MouseRightButtonDown="Button_MouseRightButtonDown"
+                Click="MouseLeftButtonDown1" Background="#800000">
+                </Button>
+            </StackPanel>
+
+            <StackPanel Height="200" Orientation="Horizontal" Name="stcp2">
+
+                <Button Width="250" Height="150" Margin="8" Name="button_Skyblue" Content="4" TextBlock.FontSize="44" MouseRightButtonDown="Button_MouseRightButtonDown"
+                Click="MouseLeftButtonDown1" Background="#87CEEB">
+                </Button>
+
+                <Button Width="250" Height="150" Margin="8" Name="button_Orchid" Content="5" TextBlock.FontSize="44" MouseRightButtonDown="Button_MouseRightButtonDown"
+                Click="MouseLeftButtonDown1" Background="#DA70D6">
+                </Button>
+
+                <Button Width="250" Height="150" Margin="8" Name="button_Gold" Content="6" TextBlock.FontSize="44" MouseRightButtonDown="Button_MouseRightButtonDown" 
+                Click="MouseLeftButtonDown1" Background="#FFD700">
+                </Button>
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
